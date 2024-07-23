@@ -1,0 +1,7 @@
+SORU: Kullanıcıdan alınan A ve B tam sayılarının değerlerinin yer değiştirilmesinden sonraki durumlarını ekrana yazan algoritma
+
+1. Adım: Kullanıcıdan değer al: A = 15, B = 25
+2. Adım: Ekrana A: 15, B: 25 yaz.
+	 Ekrana B = 25, A = 15 yaz.
+
+

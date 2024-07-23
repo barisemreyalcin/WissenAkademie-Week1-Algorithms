@@ -1,0 +1,24 @@
+SORU: Bir x sayısı tek ise 3 ile çarpılıp 1 ekleniyor. Çift ise 2'ye bölünüyor.
+Bu işlem x = 1 olana kadar devam ediyor.
+Bu işlemin kaç adım sürdüğünü,
+İşlem sırasında x'in aldığı max değeri,
+x sayısının hangi sayıdan sonra hep çift olarak 1'e ulaştığını bulan algoritma ve akış diyagramı.
+
+1. Adım: Başla
+2. Adım: sayi, sayac, maxSayi, maxCiftSayi tanımla
+3. Adım: Kullanıcıdan sayı al
+4. Adım: sayac = 0, maxSayi = 0, maxCiftSayi = 0 ata
+5. Adım: Eğer sayi != 1 ise 7. Adıma git
+6. Adım. Eğer sayi >= 2 ise sayac = sayac + 1 ve 7. Adıma git
+	 Aksi halde 11. Adıma git
+7. Adım: Eğer sayi % 2 == 1 sayi = (sayi * 3) + 1, sayac = sayac + 1, maxCiftSayi = 0, 8. Adıma git
+	 Aksi halde 8. Adıma git
+8. Adım: Eğer maxCiftSayi < sayi ise maxCiftSayi = sayi, 9. Adıma git
+	 Aksi halde 10. Adıma git
+9. Adım: Eğer maxSayi < sayi ise maxSayi = sayi, 10. Adıma git
+	 Aksi halde 10. Adıma git
+10. Adım: sayi = sayi / 2, 6. adıma git
+11. Adım: Ulaşılan max sayı: maxSayi
+12. Adım: Ulaşılan max çift sayı: maxCiftSayi
+13. Adım: İşlemin bitene kadarki adım sayısı: sayac
+14. Adım: Bitir

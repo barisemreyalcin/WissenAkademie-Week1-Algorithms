@@ -1,0 +1,2 @@
+SORU: 1 ile 300 sayıları arasındaki sayıların tek olanlarının toplamı ile çift olanlarının toplamı & farkını bulan ve bu farkın negatif mi, pozitif mi, ya da 0 mı olduğunu ekrana yazan algoritma ve akış diyagramı
+

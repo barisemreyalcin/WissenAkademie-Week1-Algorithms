@@ -1,0 +1,28 @@
+SORU: Kullanıcı tarafından girilen bir sayının faktöriyelini alan ve ekrana yazan algoritma
+
+5! = 5*4*3*2*1 = 120
+
+1. Adım: Başla
+2. Adım: Kullanıcıdan sayı al
+3. Adım: faktoriyel = 1, sayac = 1
+4. Adım: sayi == 0 ise faktoriyel = 1 -> Adım 7'e git
+5. Adım: sayac < sayi ise sayac++
+	 Aksi halde -> Adım 7'e git
+6. Adım: faktoriyel = faktoriyel * sayac -> Adım 5'e git
+7. Adım: Ekrana yaz faktoriyel
+8. Adım: Bitir
+
+Sayı = 3, faktoriyel = 1, sayac = 1
+	  sayi > sayac
+Sayı = 3, faktoriyel = 1, sayac = 2
+	  faktoriyel = faktoriyel * sayac
+	  2 = 1 * 2
+	  sayi > sayac
+Sayı = 3, faktoriyel = 2, sayac = 3
+	  faktoriyel = faktoriyel * sayac
+	  6 = 2 * 3
+	  sayi = sayac => Bitir
+
+
+
+

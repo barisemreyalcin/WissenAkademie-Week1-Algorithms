@@ -1,0 +1,9 @@
+SORU: Kullanıcıdan alınan 5 tam sayının ortalamasını hesaplayan ve ekrana yazdıran algoritma.
+
+Kaba Kod / Pseudo Kod / Sözde Kod
+
+1. Adım: Başla
+2. Adım: Kullanıcıdan num1, num2, num3, num4 ve num2 al.
+3. Adım: Hesapla: average = (num1 + num2 + num3 + num4 + num5) / 5
+4. Adım: Ortalamayı ekrana yaz.
+5. Adım: Bitir.

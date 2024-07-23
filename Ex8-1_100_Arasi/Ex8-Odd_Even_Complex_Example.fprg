@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="BEY"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-05-28 04:55:48 &#214;S"/>
+        <attribute name="created" value="QkVZO0RFU0tUT1AtNlFUUEZVQzsyMDI0LTA1LTI3OzA2OjA2OjM2IMOWUzsyNzU1"/>
+        <attribute name="edited" value="QkVZO0RFU0tUT1AtNlFUUEZVQzsyMDI0LTA1LTI4OzA0OjU1OjQ4IMOWUzs3OzI4NzU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayi, sayac, maxSayi, maxCiftSayi" type="Integer" array="False" size=""/>
+            <output expression="&quot;Bir say&#305; giriniz: &quot;" newline="True"/>
+            <input variable="sayi"/>
+            <assign variable="sayac" expression="0"/>
+            <assign variable="maxSayi" expression="0"/>
+            <assign variable="maxCiftSayi" expression="0"/>
+            <if expression="sayi != 1">
+                <then>
+                    <while expression="sayi &gt;= 2">
+                        <assign variable="sayac" expression="sayac + 1"/>
+                        <if expression="sayi % 2 == 1">
+                            <then>
+                                <assign variable="sayi" expression="(sayi * 3) + 1"/>
+                                <assign variable="sayac" expression="sayac + 1"/>
+                                <assign variable="maxCiftSayi" expression="0"/>
+                            </then>
+                            <else/>
+                        </if>
+                        <if expression="maxCiftSayi &lt; sayi">
+                            <then>
+                                <assign variable="maxCiftSayi" expression="sayi"/>
+                            </then>
+                            <else/>
+                        </if>
+                        <if expression="maxSayi &lt; sayi">
+                            <then>
+                                <assign variable="maxSayi" expression="sayi"/>
+                            </then>
+                            <else/>
+                        </if>
+                        <assign variable="sayi" expression="sayi / 2"/>
+                    </while>
+                    <output expression="&quot;Ula&#351;&#305;lan max say&#305;: &quot; &amp; maxSayi" newline="True"/>
+                    <output expression="&quot;Ula&#351;&#305;lan max &#231;ift say&#305;: &quot; &amp; maxCiftSayi" newline="True"/>
+                    <output expression="&quot;&#304;&#351;lemin bitene kadarki ad&#305;m say&#305;s&#305;: &quot; &amp; sayac" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;1 girdiniz. &#304;&#351;lem hemen sonland&#305;.&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

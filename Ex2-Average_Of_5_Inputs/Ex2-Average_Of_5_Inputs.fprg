@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="BEY"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-05-27 07:21:05 &#214;S"/>
+        <attribute name="created" value="QkVZO0RFU0tUT1AtNlFUUEZVQzsyMDI0LTA1LTI3OzA2OjA2OjM2IMOWUzsyNzU1"/>
+        <attribute name="edited" value="QkVZO0RFU0tUT1AtNlFUUEZVQzsyMDI0LTA1LTI3OzA3OjIxOjA1IMOWUzsyOzI4NTg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1, num2, num3, num4, num5" type="Integer" array="False" size=""/>
+            <output expression="&quot;1. say&#305;y&#305; giriniz: &quot;" newline="True"/>
+            <input variable="num1"/>
+            <output expression="&quot;2. say&#305;y&#305; giriniz: &quot;" newline="True"/>
+            <input variable="num2"/>
+            <output expression="&quot;3. say&#305;y&#305; giriniz: &quot;" newline="True"/>
+            <input variable="num3"/>
+            <output expression="&quot;4. say&#305;y&#305; giriniz: &quot;" newline="True"/>
+            <input variable="num4"/>
+            <output expression="&quot;5. say&#305;y&#305; giriniz: &quot;" newline="True"/>
+            <input variable="num5"/>
+            <declare name="average" type="Integer" array="False" size=""/>
+            <assign variable="average" expression="(num1 + num2 + num3 + num4 + num5) / 5"/>
+            <output expression="&quot;Girdi&#287;iniz say&#305;lar&#305;n aritmetik ortalamas&#305;: &quot; &amp; average" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

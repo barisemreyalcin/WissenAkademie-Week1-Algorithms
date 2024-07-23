@@ -1,0 +1,9 @@
+SORU: Kullanıcıdan alınan 2 tam sayının ortalamasını hesaplayan ve ekrana yazdıran algoritma.
+
+Kaba Kod / Pseudo Kod / Sözde Kod
+
+1. Adım: Başla
+2. Adım: Kullanıcıdan num1 ve num2 al.
+3. Adım: Hesapla: average = (num1 + num2) / 2
+4. Adım: Ekrana yaz.
+5. Adım: Bitir.

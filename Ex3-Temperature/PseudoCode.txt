@@ -1,0 +1,10 @@
+SORU: Kullanıcıdan alınan suyun sıcaklığına göre suyun hangi fazda olduğunu yazan algoritma
+
+Kaba Kod / Pseudo Kod / Sözde Kod
+
+1. Adım: Başla
+2. Adım: Kullanıcıdan suyun sıcaklığını al.
+3. Adım: Eğer suyun sıcaklığı >= 100 ise "Su gaz halinde"
+	 Eğer suyun sıcaklığı <= 0 ise "Su katı halinde"
+	 Aksi takdirde "Su sıvı haldedir"
+4. Adım: Bitir

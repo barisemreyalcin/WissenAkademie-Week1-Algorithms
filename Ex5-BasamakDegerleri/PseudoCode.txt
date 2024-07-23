@@ -1,0 +1,8 @@
+SORU: Kullanıcı tarafından girilen 3 basamaklı bir tam sayının basamak değerlerini ekrana yazdıran algoritma
+
+Girilen sayı: 398
+Yüzler basamağı: 3
+Onlar basamağı: 9
+Birler basamağı: 8
+
+

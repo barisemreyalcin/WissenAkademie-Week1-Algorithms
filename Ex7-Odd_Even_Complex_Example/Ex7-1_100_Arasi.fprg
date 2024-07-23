@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="BEY"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-05-28 05:18:19 &#214;S"/>
+        <attribute name="created" value="QkVZO0RFU0tUT1AtNlFUUEZVQzsyMDI0LTA1LTI3OzA2OjA2OjM2IMOWUzsyNzU1"/>
+        <attribute name="edited" value="QkVZO0RFU0tUT1AtNlFUUEZVQzsyMDI0LTA1LTI4OzA1OjE4OjE5IMOWUzs5OzI4NzU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayi, tekToplam, ciftToplam, sonuc" type="Integer" array="False" size=""/>
+            <assign variable="tekToplam" expression="0"/>
+            <assign variable="ciftToplam" expression="0"/>
+            <for variable="sayi" start="1" end="300" direction="inc" step="1">
+                <if expression="sayi % 2 == 1">
+                    <then>
+                        <assign variable="tekToplam" expression="tekToplam + sayi"/>
+                    </then>
+                    <else>
+                        <assign variable="ciftToplam" expression="ciftToplam + sayi"/>
+                    </else>
+                </if>
+            </for>
+            <assign variable="sonuc" expression="tekToplam  - ciftToplam"/>
+            <output expression="&quot;Sonu&#231;: &quot; &amp; sonuc" newline="True"/>
+            <output expression="&quot;Sonu&#231; tekToplam: &quot; &amp; tekToplam" newline="True"/>
+            <output expression="&quot;Sonu&#231; ciftToplam: &quot; &amp; ciftToplam" newline="True"/>
+            <if expression="sonuc == 0">
+                <then>
+                    <output expression="&quot;Fark de&#287;eri s&#305;f&#305;rd&#305;r&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="sonuc &gt; 0">
+                        <then>
+                            <output expression="&quot;Fark pozitiftir&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Fark negatiftir&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
